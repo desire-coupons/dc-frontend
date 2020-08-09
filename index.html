@@ -27,7 +27,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
-    <!-- hiehell -->
+    <!-- Top Logo -->
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6">
@@ -51,6 +51,8 @@
         </div>
       </div>
     </div>
+    <!-- Top Logo -->
+    <!-- Navbar -->
     <div class="container sticking" id="sticking">
       <nav>
         <div class="menu-icon">
@@ -66,7 +68,20 @@
             </div>
           </li>
           <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">Categories</a></li>
+          <!-- <li><a href="#">Categories</a></li> -->
+          <li>
+            <a class="dropdown">
+              <button class="dropbtn" onclick="categoriesdropdown()">
+                Categories
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="categoriesDropdown">
+                <a href="#">Link a</a>
+                <a href="#">Link b</a>
+                <a href="#">Link c</a>
+              </div>
+            </a>
+          </li>
           <li>
             <a class="dropdown">
               <button class="dropbtn" onclick="navbardropdown()">
@@ -80,7 +95,6 @@
               </div>
             </a>
           </li>
-
           <li><a href="#">Request</a></li>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">FAQ</a></li>
@@ -103,7 +117,189 @@
         </form>
       </nav>
     </div>
-
+    <!-- Navbar -->
+    <!-- Main Content Area -->
+    <div class="container content">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 15rem;">
+                <img
+                  class="card-img-top"
+                  src="https://via.placeholder.com/150"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="row py-2">
+                    <div class="col-12 col-lg-6">
+                      <span
+                        style="
+                          text-decoration: line-through;
+                          padding-right: 5px;
+                        "
+                        >&#36; 0</span
+                      >Free
+                    </div>
+                    <div
+                      class="col-12 col-lg-6"
+                      style="display: flex; justify-content: flex-end;"
+                    >
+                      <img
+                        src="./img/google-logo.png"
+                        alt=""
+                        sizes=""
+                        srcset=""
+                        style="width: 30px; height: 30px;"
+                      />
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    Photoshop Mega Course – From Beginner to Super Designer
+                  </h5>
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="font-size: 12px;">
+                      <p>
+                        PHOTOSHOP <br />
+                        Udemy
+                      </p>
+                    </div>
+                    <div
+                      class="col-12 col-lg-6"
+                      style="
+                        font-size: 12px;
+                      "
+                    >
+                      <p><i class="far fa-clock"></i> 1 days left</p>
+                    </div>
+                  </div>
+                  <!-- <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 15rem;">
+                <img
+                  class="card-img-top"
+                  src="https://via.placeholder.com/150"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="row py-2">
+                    <div class="col-12 col-lg-6">
+                      <span
+                        style="
+                          text-decoration: line-through;
+                          padding-right: 5px;
+                        "
+                        >&#36; 0</span
+                      >Free
+                    </div>
+                    <div
+                      class="col-12 col-lg-6"
+                      style="display: flex; justify-content: flex-end;"
+                    >
+                      <img
+                        src="./img/google-logo.png"
+                        alt=""
+                        sizes=""
+                        srcset=""
+                        style="width: 30px; height: 30px;"
+                      />
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    Photoshop Mega Course – From Beginner to Super Designer
+                  </h5>
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="font-size: 12px;">
+                      <p>
+                        PHOTOSHOP <br />
+                        Udemy
+                      </p>
+                    </div>
+                    <div
+                      class="col-12 col-lg-6"
+                      style="
+                        font-size: 12px;
+                      "
+                    >
+                      <p><i class="far fa-clock"></i> 1 days left</p>
+                    </div>
+                  </div>
+                  <!-- <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card" style="width: 15rem;">
+                <img
+                  class="card-img-top"
+                  src="https://via.placeholder.com/150"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="row py-2">
+                    <div class="col-12 col-lg-6">
+                      <span
+                        style="
+                          text-decoration: line-through;
+                          padding-right: 5px;
+                        "
+                        >&#36; 0</span
+                      >Free
+                    </div>
+                    <div
+                      class="col-12 col-lg-6"
+                      style="display: flex; justify-content: flex-end;"
+                    >
+                      <img
+                        src="./img/google-logo.png"
+                        alt=""
+                        sizes=""
+                        srcset=""
+                        style="width: 30px; height: 30px;"
+                      />
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    Photoshop Mega Course – From Beginner to Super Designer
+                  </h5>
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="font-size: 12px;">
+                      <p>
+                        PHOTOSHOP <br />
+                        Udemy
+                      </p>
+                    </div>
+                    <div
+                      class="col-12 col-lg-6"
+                      style="
+                        font-size: 12px;
+                      "
+                    >
+                      <p><i class="far fa-clock"></i> 1 days left</p>
+                    </div>
+                  </div>
+                  <!-- <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4"></div>
+      </div>
+    </div>
+    <!-- Main Content Area -->
     <div class="content">
       <div class="container">
         <h1>richard rozario</h1>
@@ -216,59 +412,8 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script>
-      var navbar = document.getElementById("sticking");
-      const menuBtn = document.querySelector(".menu-icon span");
-      const searchBtn = document.querySelector(".search-icon");
-      const cancelBtn = document.querySelector(".cancel-icon");
-      const cancelBtnSearch = document.querySelector(".cancel-icon-search");
-      const items = document.querySelector(".nav-items");
-      const form = document.querySelector("form");
-      menuBtn.onclick = () => {
-        items.classList.add("active");
-        menuBtn.classList.add("hide");
-        /* searchBtn.classList.add("hide"); */
-        cancelBtn.classList.add("show");
-      };
-      cancelBtn.onclick = () => {
-        items.classList.remove("active");
-        menuBtn.classList.remove("hide");
-        /* searchBtn.classList.remove("hide"); */
-        /* cancelBtn.classList.remove("show"); */
-
-        form.classList.remove("active");
-        cancelBtn.style.color = "#ff3d00";
-      };
-      cancelBtnSearch.onclick = () => {
-        form.classList.remove("active");
-        searchBtn.classList.remove("hide");
-        cancelBtnSearch.classList.remove("show");
-        cancelBtnSearch.style.color = "#171c24";
-      };
-      searchBtn.onclick = () => {
-        form.classList.add("active");
-        searchBtn.classList.add("hide");
-        cancelBtnSearch.classList.add("show");
-        cancelBtnSearch.style.color = "#ff3d00";
-      };
-    </script>
-    <script>
-      /* When the user clicks on the button, 
-      toggle between hiding and showing the dropdown content */
-      function navbardropdown() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-
-      // Close the dropdown if the user clicks outside of it
-      window.onclick = function (e) {
-        if (!e.target.matches(".dropbtn")) {
-          var myDropdown = document.getElementById("myDropdown");
-          if (myDropdown.classList.contains("show")) {
-            myDropdown.classList.remove("show");
-          }
-        }
-      };
-    </script>
+    <script src="/nav.js"></script>
+    <!-- Check if the Navbar is touching the top of the page -->
     <script>
       var distance = $("#sticking").offset().top,
         $window = $(window);
