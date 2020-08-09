@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <meta charset="utf-8" />
     <title>Desire Coupons</title>
     <link rel="stylesheet" href="style.css" />
@@ -9,70 +14,263 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
-    <nav>
-      <div class="menu-icon">
-        <span class="fas fa-bars"></span>
+    <!-- hiehell -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h1 class="main-heading">Desire Coupons</h1>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="main-heading-searchbar">
+            <div class="input-group">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search Coupons"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="logo">
-        Desire Coupons
+    </div>
+    <div class="container sticking" id="sticking">
+      <nav>
+        <div class="menu-icon">
+          <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+          Desire Coupons
+        </div>
+        <div class="nav-items">
+          <li>
+            <div class="cancel-icon">
+              <span class="fas fa-times"></span>
+            </div>
+          </li>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li>
+            <a class="dropdown">
+              <button class="dropbtn" onclick="navbardropdown()">
+                Articles
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </a>
+          </li>
+
+          <li><a href="#">Request</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">DMCA</a></li>
+        </div>
+        <div class="search-icon">
+          <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon-search hide">
+          <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+          <input
+            type="search"
+            class="search-data"
+            placeholder="Search"
+            required
+          />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+      </nav>
+    </div>
+
+    <div class="content">
+      <div class="container">
+        <h1>richard</h1>
       </div>
-      <div class="nav-items">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Feedback</a></li>
+      <div class="container w-100">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+        repudiandae magnam obcaecati iusto temporibus ipsum. Repellendus earum
+        laborum debitis ipsa ad molestias velit inventore assumenda? Quasi
+        tempore amet nulla autem?
       </div>
-      <div class="search-icon">
-        <span class="fas fa-search"></span>
+      <div class="container">
+        Rome (Italian and Latin: Roma [ˈroːma] (About this soundlisten)) is the
+        capital city and a special comune of Italy (named Comune di Roma
+        Capitale) as well as the capital of the Lazio region. The city has been
+        a major human settlement for over two millennia. With 2,860,009
+        residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most
+        populated comune. It is the third most populous city in the European
+        Union by population within city limits. It is the centre of the
+        Metropolitan City of Rome, which has a population of 4,355,725
+        residents, thus making it the most populous metropolitan city in
+        Italy.[2] Its metropolitan area is the third-most populous within
+        Italy.[3] Rome is located in the central-western portion of the Italian
+        Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican
+        City (the smallest country in the world)[4] is an independent country
+        inside the city boundaries of Rome, the only existing example of a
+        country within a city; for this reason Rome has sometimes been defined
+        as the capital of two states.[5][6] Rome's history spans 28 centuries.
+        While Roman mythology dates the founding of Rome at around 753 BC, the
+        site has been inhabited for much longer, making it one of the oldest
+        continuously occupied cities in Europe.[7] The city's early population
+        originated from a mix of Latins, Etruscans, and Sabines. Eventually, the
+        city successively became the capital of the Roman Kingdom, the Roman
+        Republic and the Roman Empire, and is regarded by many as the first ever
+        Imperial City and metropolis.[8] It was first called The Eternal City
+        (Latin: Urbs Aeterna; Italian: La Città Eterna) by the Roman poet
+        Tibullus in the 1st century BC, and the expression was also taken up by
+        Ovid, Virgil, and Livy.[9][10] Rome is also called "Caput Mundi"
+        (Capital of the World). After the fall of the Empire in the west, which
+        marked the beginning of the Middle Ages, Rome slowly fell under the
+        political control of the Papacy, and in the 8th century it became the
+        capital of the Papal States, which lasted until 1870. Beginning with the
+        Renaissance, almost all popes since Nicholas V (1447–1455) pursued a
+        coherent architectural and urban programme over four hundred years,
+        aimed at making the city the artistic and cultural centre of the
+        world.[11] In this way, Rome became first one of the major centres of
+        the Renaissance,[12] and then the birthplace of both the Baroque style
+        and Neoclassicism. Famous artists, painters, sculptors and architects
+        made Rome the centre of their activity, creating masterpieces throughout
+        the city. In 1871, Rome became the capital of the Kingdom of Italy,
+        which, in 1946, became the Italian Republic. As of 2020, Rome is ranked
+        as an Alpha global city by the Globalization and World Cities Research
+        Network.[13] In 2019, Rome was the 11th most visited city in the world
+        with 10.1 million tourists, the third most visited in the European
+        Union, and the most popular tourist destination in Italy.[14] Its
+        historic centre is listed by UNESCO as a World Heritage Site.[15] Host
+        city for the 1960 Summer Olympics, Rome is also the seat of several
+        specialised agencies of the United Nations, such as the Food and
+        Agriculture Organization (FAO), the World Food Programme (WFP) and the
+        International Fund for Agricultural Development (IFAD). The city also
+        hosts the Secretariat of the Parliamentary Assembly of the Union for the
+        Mediterranean[16] (UfM) as well as the headquarters of many
+        international business companies such as Eni, Enel, TIM, Leonardo
+        S.p.A., and national and international banks such as Unicredit and BNL.
+        Rome's EUR business district is the home of many companies involved in
+        the oil industry, the pharmaceutical industry, and financial services.
+        The presence of renowned international brands in the city have made Rome
+        an important centre of fashion and design, and the Cinecittà Studios
+        have been the set of many Academy Award–winning movies.[17]
       </div>
-      <div class="cancel-icon">
-        <span class="fas fa-times"></span>
+      <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+        repudiandae magnam obcaecati iusto temporibus ipsum. Repellendus earum
+        laborum debitis ipsa ad molestias velit inventore assumenda? Quasi
+        tempore amet nulla autem?
       </div>
-      <form action="#">
-        <input
-          type="search"
-          class="search-data"
-          placeholder="Search"
-          required
-        />
-        <button type="submit" class="fas fa-search"></button>
-      </form>
-    </nav>
-    <!-- <div class="content">
-      <header class="space">Desire Coupons</header>
-      <div class="space text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-        accusantium! Incidunt error corporis ex. Voluptate ipsa vel eveniet?
-        Sint dolores in nobis iure, corporis perferendis velit accusantium
-        provident distinctio nesciunt.
+      <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+        repudiandae magnam obcaecati iusto temporibus ipsum. Repellendus earum
+        laborum debitis ipsa ad molestias velit inventore assumenda? Quasi
+        tempore amet nulla autem?
       </div>
-    </div> -->
+      <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+        repudiandae magnam obcaecati iusto temporibus ipsum. Repellendus earum
+        laborum debitis ipsa ad molestias velit inventore assumenda? Quasi
+        tempore amet nulla autem?
+      </div>
+      <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+        repudiandae magnam obcaecati iusto temporibus ipsum. Repellendus earum
+        laborum debitis ipsa ad molestias velit inventore assumenda? Quasi
+        tempore amet nulla autem?
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script>
+      var navbar = document.getElementById('sticking');
       const menuBtn = document.querySelector(".menu-icon span");
       const searchBtn = document.querySelector(".search-icon");
       const cancelBtn = document.querySelector(".cancel-icon");
+      const cancelBtnSearch = document.querySelector(".cancel-icon-search");
       const items = document.querySelector(".nav-items");
       const form = document.querySelector("form");
       menuBtn.onclick = () => {
         items.classList.add("active");
         menuBtn.classList.add("hide");
-        searchBtn.classList.add("hide");
+        /* searchBtn.classList.add("hide"); */
         cancelBtn.classList.add("show");
       };
       cancelBtn.onclick = () => {
         items.classList.remove("active");
         menuBtn.classList.remove("hide");
-        searchBtn.classList.remove("hide");
-        cancelBtn.classList.remove("show");
+        /* searchBtn.classList.remove("hide"); */
+        /* cancelBtn.classList.remove("show"); */
+
         form.classList.remove("active");
         cancelBtn.style.color = "#ff3d00";
+      };
+      cancelBtnSearch.onclick = () => {
+        form.classList.remove("active");
+        searchBtn.classList.remove("hide");
+        cancelBtnSearch.classList.remove("show");
+        cancelBtnSearch.style.color = "#171c24";
       };
       searchBtn.onclick = () => {
         form.classList.add("active");
         searchBtn.classList.add("hide");
-        cancelBtn.classList.add("show");
+        cancelBtnSearch.classList.add("show");
+        cancelBtnSearch.style.color = "#ff3d00";
       };
+    </script>
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function navbardropdown() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
+          }
+        }
+      };
+    </script>
+    <script>
+      var distance = $("#sticking").offset().top,
+        $window = $(window);
+
+      $window.scroll(function () {
+        if ($window.scrollTop() >= distance) {
+          /* console.log("true"); */
+          navbar.classList.remove('container');
+        }
+        else{
+          /* console.log("false"); */
+          navbar.classList.add('container');
+
+        }
+      });
     </script>
   </body>
 </html>
