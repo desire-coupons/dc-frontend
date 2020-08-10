@@ -342,8 +342,12 @@ nav .nav-items .dropdown-content a {
   margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
+.homepage .card {
+  margin: 0.5rem 0;
+}
+
+/* @media (max-width: 768px) {
   .homepage .card {
     margin: 0.5rem 0;
   }
-}
+} */
