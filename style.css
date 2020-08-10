@@ -342,6 +342,11 @@ nav .nav-items .dropdown-content a {
   margin-top: 2rem;
 }
 
+.homepage .card img {
+  width: 85%;
+  height: 140px;
+}
+
 .homepage .card {
   margin: 0.5rem 0;
 }
@@ -351,3 +356,28 @@ nav .nav-items .dropdown-content a {
     margin: 0.5rem 0;
   }
 } */
+
+.sidebar h2::after {
+  content: "";
+  /* display: block; */
+  width: 60px;
+  height: 3px;
+  top: 2.1%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.05);
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .homepage .card img {
+    width: 94%;
+    height: 170px;
+  }
+}
+
+@media (max-width: 500px) {
+  .homepage .card img {
+    width: 90%;
+    height: 170px;
+  }
+}
