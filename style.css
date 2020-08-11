@@ -351,6 +351,7 @@ nav .nav-items .dropdown-content a {
 
 .homepage .card {
   margin: 0.5rem 0;
+  width: 15em;
 }
 
 /* @media (max-width: 768px) {
