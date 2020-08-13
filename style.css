@@ -27,6 +27,14 @@
   color: #2a89ee;
 }
 
+.main-heading a {
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
 .main-heading-searchbar {
   width: 70%;
   margin: auto;
@@ -403,7 +411,7 @@ nav .nav-items .dropdown-content a {
   position: absolute;
   display: block;
   width: 205px;
-  padding: 10px 0;
+  padding: 6px 0;
   background-color: #2a89ee;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -411,6 +419,7 @@ nav .nav-items .dropdown-content a {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   text-align: center;
+  font-size: 12px;
 }
 
 /* top left*/
