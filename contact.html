@@ -123,101 +123,86 @@
     <!-- Navbar -->
 
     <!-- Main Content Area -->
+      <div class="container breadcrumbs pt-4">
+        <ol class="breadcrumb" style="background-color: #fff;">
+            <li class="breadcrumb-item"><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+          </ol>
+      </div>
     <div class="container content">
       <div class="row">
         <div class="col-12 col-lg-8">
           <h2>Contact Us</h2>
           <form>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
+              <label for="fullname">Full Name (required)</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullname"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address (required)</label>
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="email"
                 placeholder="name@example.com"
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlSelect1">Example select</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect2"
-                >Example multiple select</label
-              >
-              <select
-                multiple
-                class="form-control"
-                id="exampleFormControlSelect2"
-              >
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
+              <label for="issue">Explain your issue</label>
+              <textarea class="form-control" id="issue" rows="3"></textarea>
             </div>
           </form>
         </div>
         <div class="col-12 col-lg-4">
           Ads go here
         </div>
+      </div>
+    </div>
 
-        <div
-          id="footer"
-          style="background: black; padding: 2rem 0; color: aliceblue;"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-4 col-lg-4">
-                <h5 class="py-2">About Desire Coupons</h5>
-                <p style="font-size: 13px; width: 75%; text-align: justify;">
-                  Desire Coupon is a free way of online learning from beginner
-                  to professional. It’s the best place to find the 100% free
-                  Udemy, Eduonix, BitDegree, YouAccel coupons
-                </p>
-              </div>
-              <div class="col-12 col-md-4 col-lg-4">
-                <h5 class="py-2">
-                  <a href="" style="text-decoration: none; color: #fff;"
-                    >Contact Us</a
-                  >
-                </h5>
-                <h5 class="py-2">Terms and Conditions</h5>
-                <h5 class="py-2">Privacy</h5>
-              </div>
-              <div class="col-12 col-md-4 col-lg-4">
-                <h5 class="py-2">Latest Courses</h5>
-                <ul>
-                  <li><a href="">The Hands On Machine Learning Course</a></li>
-                  <li>
-                    <a href=""
-                      >Color Correction & Grading with Adobe Premiere Pro
-                      2020</a
-                    >
-                  </li>
-                  <li>
-                    <a href=""
-                      >Complete Modern JavaScript BootCamp from the beginning</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
+    <div
+      id="footer"
+      style="background: black; padding: 2rem 0; color: aliceblue;"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5 class="py-2">About Desire Coupons</h5>
+            <p style="font-size: 13px; width: 75%; text-align: justify;">
+              Desire Coupon is a free way of online learning from beginner to
+              professional. It’s the best place to find the 100% free Udemy,
+              Eduonix, BitDegree, YouAccel coupons
+            </p>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5 class="py-2">
+              <a href="" style="text-decoration: none; color: #fff;"
+                >Contact Us</a
+              >
+            </h5>
+            <h5 class="py-2">Terms and Conditions</h5>
+            <h5 class="py-2">Privacy</h5>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5 class="py-2">Latest Courses</h5>
+            <ul>
+              <li><a href="">The Hands On Machine Learning Course</a></li>
+              <li>
+                <a href=""
+                  >Color Correction & Grading with Adobe Premiere Pro 2020</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  >Complete Modern JavaScript BootCamp from the beginning</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -250,7 +235,7 @@
 
       $window.scroll(function () {
         if ($window.scrollTop() >= distance) {
-          /* console.log("true"); */
+          console.log("true");
           navbar.classList.remove("container");
         } else {
           /* console.log("false"); */

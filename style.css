@@ -444,6 +444,7 @@ nav .nav-items .dropdown-content a {
   background-color: #228b22;
   color: #fff;
   padding: 3px;
+  font-weight: 700;
 }
 
 @media (max-width: 756px) {
