@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" /> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- smart phone css  -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>Desire Coupons</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!-- Top Logo -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h1 class="main-heading"><a href="/">Desire Coupons</a></h1>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="main-heading-searchbar">
+            <div class="input-group">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search Coupons"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Logo -->
+    <!-- Navbar -->
+    <div class="container sticking" id="sticking">
+      <nav>
+        <div class="menu-icon">
+          <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+          <a href="/" style="color: #fff;">Desire Coupons</a>
+        </div>
+        <div class="nav-items">
+          <li>
+            <div class="cancel-icon">
+              <span class="fas fa-times"></span>
+            </div>
+          </li>
+          <li><a class="active" href="/">Home</a></li>
+          <!-- <li><a href="#">Categories</a></li> -->
+          <li>
+            <a class="dropdown">
+              <button class="dropbtn" onclick="categoriesdropdown()">
+                Categories
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="categoriesDropdown">
+                <a href="#">Link a</a>
+                <a href="#">Link b</a>
+                <a href="#">Link c</a>
+              </div>
+            </a>
+          </li>
+          <!-- <li>
+            <a class="dropdown">
+              <button class="dropbtn" onclick="navbardropdown()">
+                Articles
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </a>
+          </li> -->
+          <li>
+            <a href="#">Blogs</a>
+          </li>
+          <li><a href="#">Request</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">DMCA</a></li>
+        </div>
+        <div class="search-icon">
+          <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon-search hide">
+          <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+          <input
+            type="search"
+            class="search-data"
+            placeholder="Search"
+            required
+          />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+      </nav>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Main Content Area -->
+    <div class="container breadcrumbs pt-4">
+      <ol class="breadcrumb" style="background-color: #fff;">
+        <li class="breadcrumb-item">
+          <a href="/"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
+        <li class="breadcrumb-item active" aria-current="page">Blogs</li>
+      </ol>
+    </div>
+    <div class="container content blog-container">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <h2 class="py-3">Read Our latest blogs</h2>
+          <div class="row">
+            <div class="col-xs-12 col-md-6 blog-card-image">
+              <a href="">
+                <img
+                  src="https://sf.ezoiccdn.com/ezoimgfmt/coursevania.com/wp-content/uploads/2020/08/20200818_111809.jpg?ezimgfmt=rs:770x433/rscb1/ngcb1/notWebP"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-xs-12 col-md-6 blog-card-body">
+              <a href="">
+                <h3 style="font-size: 1.3rem;" class="blog-card-body-heading">
+                  [100%OFF]Google Data Studio Course 2020- From Beginner To
+                  Advanced
+                </h3>
+              </a>
+              <p style="font-size: 13px;" class="blog-card-body-heading">
+                DESCRIPTION Google Data Studio is the establishment of any
+                Sales, Marketing , Human Resource or so far as that is…
+              </p>
+              <button type="button" class="btn btn-primary" style="font-size: 12px;" class="blog-card-body-read-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          Ads go here
+        </div>
+      </div>
+    </div>
+    <!-- Main Content Area Ends-->
+
+    <!-- Footer -->
+    <div
+      id="footer"
+      style="background: black; padding: 2rem 0; color: aliceblue;"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5 class="py-2">About Desire Coupons</h5>
+            <p style="font-size: 13px; width: 75%; text-align: justify;">
+              Desire Coupon is a free way of online learning from beginner to
+              professional. It’s the best place to find the 100% free Udemy,
+              Eduonix, BitDegree, YouAccel coupons
+            </p>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5 class="py-2">
+              <a href="" style="text-decoration: none; color: #fff;"
+                >Contact Us</a
+              >
+            </h5>
+            <h5 class="py-2">Terms and Conditions</h5>
+            <h5 class="py-2">Privacy</h5>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5 class="py-2">Latest Courses</h5>
+            <ul>
+              <li><a href="">The Hands On Machine Learning Course</a></li>
+              <li>
+                <a href=""
+                  >Color Correction & Grading with Adobe Premiere Pro 2020</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  >Complete Modern JavaScript BootCamp from the beginning</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./nav.js"></script>
+    <!-- Check if the Navbar is touching the top of the page -->
+    <script>
+      var distance = $("#sticking").offset().top,
+        $window = $(window);
+
+      $window.scroll(function () {
+        if ($window.scrollTop() >= distance) {
+          /* console.log("true"); */
+          navbar.classList.remove("container");
+        } else {
+          /* console.log("false"); */
+          navbar.classList.add("container");
+        }
+      });
+    </script>
+  </body>
+</html>

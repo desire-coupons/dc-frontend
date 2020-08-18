@@ -507,3 +507,17 @@ nav .nav-items .dropdown-content a {
 .popular-courses-list li a:hover {
   color: #2a89ee;
 }
+
+.blog-container {
+  margin-bottom: 2rem;
+}
+
+.blog-card-body-heading {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 768px){
+  .blog-card-body {
+    margin-top: 1.2rem;
+  }
+}
