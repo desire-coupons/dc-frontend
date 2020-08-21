@@ -31,7 +31,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6">
-          <h1 class="main-heading">Desire Coupons</h1>
+          <h1 class="main-heading"><a href="/">Desire Coupons</a></h1>
         </div>
         <div class="col-12 col-lg-6">
           <div class="main-heading-searchbar">
@@ -59,7 +59,7 @@
           <span class="fas fa-bars"></span>
         </div>
         <div class="logo">
-          Desire Coupons
+          <a href="/" style="color: #fff;">Desire Coupons</a>
         </div>
         <div class="nav-items">
           <li>
@@ -67,7 +67,7 @@
               <span class="fas fa-times"></span>
             </div>
           </li>
-          <li><a class="active" href="#">Home</a></li>
+          <li><a class="active" href="/">Home</a></li>
           <!-- <li><a href="#">Categories</a></li> -->
           <li>
             <a class="dropdown">
@@ -99,7 +99,7 @@
             <a href="#">Blogs</a>
           </li>
           <li><a href="#">Request</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">DMCA</a></li>
         </div>
@@ -128,17 +128,40 @@
         <li class="breadcrumb-item">
           <a href="/"><i class="fas fa-home"></i> Home</a>
         </li>
-        <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
-        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+        <li class="breadcrumb-item"><a href="#">Other</a></li>
+        <li class="breadcrumb-item active" aria-current="page">
+          [100%OFF]The FREE Photoshop: Turn GIMP Into Photoshop in No Time
+        </li>
       </ol>
     </div>
     <!-- breadcrumbs -->
 
     <!-- Main Content Area -->
-    <div class="container content">
+    <div class="container content single-blog-page">
       <div class="row">
         <div class="col-12 col-lg-8">
-          <h2>Contact Us</h2>
+          <!-- <button class="category-btn" type="button" href="#" class="btn btn-primary">Other</button> -->
+          <a class="btn btn-primary category-btn" href="https://www.google.com/" role="button">Link</a>
+          <h2>
+            [100%OFF]The FREE Photoshop: Turn GIMP Into Photoshop in No Time
+          </h2>
+          <div class="post-meta" style="display: flex; justify-content: space-between; font-size: 14px;">
+            <div class="user"><i class="fas fa-user-circle"></i> Richard</div>
+            <div class="blog-meta"><i class="fas fa-comments"></i> 0 <i class="fas fa-bookmark"></i> 1 min read</div>
+          </div>
+          <div class="social-media-icons">
+            <ul style="width: 100%; display: flex; list-style: none; justify-content: center;">
+              <li><a href=""><img src="img/footer/social-media-icons/facebook.svg" alt=""></a></li>
+              <li><a href=""><img src="img/footer/social-media-icons/instagram.svg" alt=""></a></li>
+              <li><a href=""><img src="img/footer/social-media-icons/Pinterest .svg" alt=""></a></li>
+              <li><a href=""><img src="img/footer/social-media-icons/telegram.jpg" alt=""></a></li>
+            </ul>
+          </div>
+          <img src="https://sf.ezoiccdn.com/ezoimgfmt/coursevania.com/wp-content/uploads/2020/08/20200821_101300.jpg?ezimgfmt=rs:770x433/rscb1/ng:webp/ngcb1" alt="" class="img-fluid">
+          <div class="coupon-description">
+            <h2>DESCRIPTION</h2>
+          </div>
+          <a class="btn btn-primary category-btn" href="https://www.google.com/" role="button">Link</a>
           <form>
             <div class="form-group">
               <label for="fullname">Full Name (required)</label>
@@ -171,7 +194,6 @@
     </div>
     <!-- Main Content Area Ends -->
 
-    <!-- Footer -->
     <div
       id="footer"
       style="background: black; padding: 2rem 0; color: aliceblue;"
@@ -240,7 +262,7 @@
 
       $window.scroll(function () {
         if ($window.scrollTop() >= distance) {
-          console.log("true");
+          /* console.log("true"); */
           navbar.classList.remove("container");
         } else {
           /* console.log("false"); */
