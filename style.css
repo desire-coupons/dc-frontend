@@ -521,3 +521,13 @@ nav .nav-items .dropdown-content a {
     margin-top: 1.2rem;
   }
 }
+
+
+.footer .social-media-icons {
+  margin-top: 20px;
+}
+
+.footer .social-media-icons img {
+  width: 30px;
+  height: 30px;
+}
