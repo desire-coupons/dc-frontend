@@ -617,3 +617,13 @@ nav .nav-items .dropdown-content a {
   height: 50%;
   max-width: 100%;
 }
+
+.copyright-area {
+  background-color: #222;
+  padding: 4px 0;
+}
+
+.copyright-area p{
+  margin-top: 15px;
+  color: #fff;
+}
