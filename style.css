@@ -535,10 +535,10 @@ nav .nav-items .dropdown-content a {
 
 .single-blog-page .category-btn {
   font-size: 13px;
-  width: 45px;
-  padding: 4px;
+  /* width: 45px; */
+  /* padding: 4px; */
   margin: 10px 0;
-  height: 29px;
+  /* height: 29px; */
 }
 
 .single-blog-page .social-media-icons {
@@ -552,4 +552,68 @@ nav .nav-items .dropdown-content a {
 
 .single-blog-page .social-media-icons ul li {
   margin-right: 35px;
+}
+
+.single-coupon-page-enroll .enroll-btn {
+  font-size: 20px;
+  font-weight: 600;
+  /* width: 45px; */
+  padding: 10px 25px;
+  /* margin: 35px 0; */
+  height: 50px;
+  border-radius: 50px;
+}
+
+.single-coupon-page-enroll .telegram-btn {
+  font-size: 15px;
+  /* width: 45px; */
+  padding: 8px 32px;
+  margin: 35px 0;
+  height: 62px;
+  border-radius: 50px;
+}
+.related-articles-heading {
+  position: relative;
+  /* padding: 0 0 15px; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.related-articles-heading:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  border-left: 0;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #2c2f34;
+}
+
+.related-articles-heading:after {
+  content: "";
+  background: #2c2f34;
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.related-articles-list .card {
+  border: none;
+}
+
+.related-articles-list .card-text {
+  font-size: 13px;
+}
+
+.related-articles-list .card-body {
+  padding: 10px 9px;
+}
+.related-articles-list .card-img-top {
+  height: 50%;
+  max-width: 100%;
 }
