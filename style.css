@@ -627,3 +627,15 @@ nav .nav-items .dropdown-content a {
   margin-top: 15px;
   color: #fff;
 }
+
+
+/* sidebar social media icons */
+
+.sidebar .social-media-icons {
+  margin-top: 20px;
+}
+
+.sidebar .social-media-icons img {
+  width: 30px;
+  height: 30px;
+}
