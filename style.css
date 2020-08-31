@@ -368,16 +368,6 @@ nav .nav-items .dropdown-content a {
   }
 } */
 
-.sidebar h2::after {
-  content: "";
-  /* display: block; */
-  width: 60px;
-  height: 3px;
-  top: 2.1%;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.05);
-  margin-left: 5px;
-}
 
 /* @media (max-width: 768px) {
   .homepage .card img {
@@ -629,7 +619,33 @@ nav .nav-items .dropdown-content a {
 }
 
 
-/* sidebar social media icons */
+/* Sidebar styles */
+
+/* .sidebar h2::after {
+  content: "";
+  /* display: block;
+  width: 60px;
+  height: 3px;
+  top: 2.1%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.05);
+  margin-left: 5px;
+} */
+
+.sidebar .subscribe-email-heading {
+  /* overflow: hidden; */
+  position: relative;
+}
+.sidebar .subscribe-email-heading::after {
+  content: '';
+  width: 10%;
+  height: 1px;
+  background: rgb(37 33 33 / 25%);
+  position: absolute;
+  top: 50%;
+  margin-left: 0.6rem;
+}
+
 
 .sidebar .social-media-icons {
   margin-top: 20px;
@@ -639,3 +655,5 @@ nav .nav-items .dropdown-content a {
   width: 45px;
   height: 45px;
 }
+
+/* Sidebar styles Ends */
