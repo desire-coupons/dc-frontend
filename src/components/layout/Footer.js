@@ -63,7 +63,7 @@ function Footer() {
             </div>
             <div className="col-12 col-md-4 col-lg-4">
               <h5 className="py-2">
-                <a href style={{ textDecoration: "none", color: "#fff" }}>
+                <a href="#" style={{ textDecoration: "none", color: "#fff" }}>
                   Contact Us
                 </a>
               </h5>
