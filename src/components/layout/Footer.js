@@ -29,7 +29,7 @@ function Footer() {
                   <li>
                     <a href="#">
                       <img
-                        src={require("../assets/img/footer/social-media-icons/facebook.svg")}
+                        src={require("../../assets/img/footer/social-media-icons/facebook.svg")}
                         alt="facebook svg"
                       />
                     </a>
@@ -37,7 +37,7 @@ function Footer() {
                   <li>
                     <a href="#">
                       <img
-                        src={require("../assets/img/footer/social-media-icons/instagram.svg")}
+                        src={require("../../assets/img/footer/social-media-icons/instagram.svg")}
                         alt="instagram svg"
                       />
                     </a>
@@ -45,7 +45,7 @@ function Footer() {
                   <li>
                     <a href="#">
                       <img
-                        src={require("../assets/img/footer/social-media-icons/pinterest.svg")}
+                        src={require("../../assets/img/footer/social-media-icons/pinterest.svg")}
                         alt="pinterest svg"
                       />
                     </a>
@@ -53,7 +53,7 @@ function Footer() {
                   <li>
                     <a href="#">
                       <img
-                        src={require("../assets/img/footer/social-media-icons/telegram.svg")}
+                        src={require("../../assets/img/footer/social-media-icons/telegram.svg")}
                         alt="telegram svg"
                       />
                     </a>

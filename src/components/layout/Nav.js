@@ -59,7 +59,7 @@ function Nav() {
               <li>
                 <a href="#" className="dropdown">
                   <button className="dropbtn" onClick={categoriesdropdown}>
-                    Categories
+                    Categories {" "}
                     <i className="fa fa-caret-down" />
                   </button>
                 </a>

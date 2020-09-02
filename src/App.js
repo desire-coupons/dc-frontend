@@ -2,7 +2,8 @@ import React from 'react';
 import { Router } from "@reach/router";
 import "./assets/css/style.css"
 
-import Home from './pages/Home';
+import Home from './components/pages/Home';
+
 
 function App() {
   return (
