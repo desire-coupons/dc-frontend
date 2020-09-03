@@ -1,9 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
+/* React Imports */
 import React from "react";
+
+/* Global Imports */
 import Nav from "../layout/Nav";
 import Footer from "../layout/Footer";
+
+/* Homepage Imports */
 import Coupons from "../coupons/Coupons";
 import Sidebar from "../layout/Sidebar";
+import Blogs from "../layout/Blogs";
+import PopularCourses from "../layout/PopularCourses";
 
 const Home = () => {
   return (
@@ -20,7 +28,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <Blogs />
+      <PopularCourses />
       <Footer />
     </>
   );
