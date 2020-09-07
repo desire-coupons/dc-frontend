@@ -21,14 +21,14 @@ const Home = () => {
         <div className="row">
           <div className="col-12 col-lg-8">
             <h2>Recent Coupons</h2>
-            <Coupons directory="home" />
+            <Coupons location="home" />
           </div>
           <div className="col-12 col-lg-4 sidebar">
             <Sidebar />
           </div>
         </div>
       </div>
-      <Blogs />
+      <Blogs location="home" />
       <PopularCourses />
       <Footer />
     </>
