@@ -55,7 +55,6 @@ function Nav() {
                   Home
                 </a>
               </li>
-              {/* <li><a href="#">Categories</a></li> */}
               <li>
                 <a href="#" className="dropdown">
                   <button className="dropbtn" onClick={categoriesdropdown}>
@@ -90,7 +89,7 @@ function Nav() {
                 <a href="#">Request</a>
               </li>
               <li>
-                <a href="./contact.html">Contact Us</a>
+                <a href="/contact">Contact Us</a>
               </li>
               <li>
                 <a href="#">FAQ</a>

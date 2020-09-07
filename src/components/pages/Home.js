@@ -10,7 +10,7 @@ import Footer from "../layout/Footer";
 /* Homepage Imports */
 import Coupons from "../coupons/Coupons";
 import Sidebar from "../layout/Sidebar";
-import Blogs from "../layout/Blogs";
+import Blogs from "../blogs/Blogs";
 import PopularCourses from "../layout/PopularCourses";
 
 const Home = () => {
